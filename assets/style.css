@@ -20,6 +20,21 @@ footer {
   border-top: 2px solid #00ff00;
 }
 
+::-webkit-scrollbar {
+  width: 0.5rem; /* equivale a 8px */
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+  border: 0.125rem solid #00ffff; /* equivale a 2px */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00ff00;
+  border: 0.125rem solid #00ff00; /* equivale a 2px */
+  border-radius: 0.25rem; /* equivale a 4px */
+}
+
 .cards {
   flex: 1 1 31.25rem; /* equivale a 500px */
   padding: 0 clamp(2rem, 4vw, 6rem);
@@ -43,7 +58,7 @@ footer {
 .logo {
   margin: clamp(1rem, 2vw, 3rem);
   margin-bottom: 0;
-  background-color: #1DE9B6;
+  background-color: #1de9b6;
   height: 50px;
   border: 2px solid #00ffff;
   border-radius: 2rem;

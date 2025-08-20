@@ -11,7 +11,8 @@ h1 {
   color: #00ffff;
 }
 
-p {
+p,
+ul {
   font-size: clamp(1.5rem, 2.5vw, 2rem);
   color: white;
   margin: clamp(1rem, 2vw, 3rem);
