@@ -1,0 +1,50 @@
+html,
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  font-size: 100%;
+  text-align: center;
+  font-family: "VT323", "Press Start 2P";
+  background-color: black;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  border-bottom: 2px solid #00ff00;
+}
+
+footer {
+  border-top: 2px solid #00ff00;
+}
+
+.cards {
+  flex: 1 1 31.25rem; /* equivale a 500px */
+  padding: 0 clamp(2rem, 4vw, 6rem);
+  max-width: 100%;
+  margin: clamp(1rem, 2vw, 3rem);
+  height: auto;
+  box-sizing: border-box;
+  border: 2px solid #00ffff;
+  border-radius: 6.25rem; /* equivale a 100px */
+  text-align: left;
+}
+
+.hacker {
+  font-family: "Courier New", "Share Tech Mono";
+}
+
+.anuzita {
+  height: 150px;
+}
+
+.logo {
+  margin: clamp(1rem, 2vw, 3rem);
+  margin-bottom: 0;
+  background-color: #1DE9B6;
+  height: 50px;
+  border: 2px solid #00ffff;
+  border-radius: 2rem;
+}

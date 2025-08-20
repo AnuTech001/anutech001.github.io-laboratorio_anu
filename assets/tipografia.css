@@ -1,0 +1,36 @@
+.texto {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+  text-align: center;
+  margin: clamp(1rem, 2vw, 3rem);
+  color: #00ffff;
+}
+
+p {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+  color: white;
+  margin: clamp(1rem, 2vw, 3rem);
+}
+
+a {
+  font-size: clamp(1rem, 2vw, 2rem);
+  margin: 0;
+  color: #00ffff;
+  display: block;
+}
+
+.hacker h1 {
+  color: #00ff00;
+  font-size: clamp(1rem, 2vw, 2rem);
+  text-align: left;
+}
+
+.hacker p {
+  color: #00ffff;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
